@@ -13,7 +13,7 @@ class MultipeerManager: NSObject, MCSessionDelegate, MCNearbyServiceAdvertiserDe
     private let myPeerId = MCPeerID(displayName: UIDevice.current.name)
     private let serviceAdvertiser: MCNearbyServiceAdvertiser
     private let serviceBrowser: MCNearbyServiceBrowser
-...
+    
     lazy var session: MCSession = {
         let session = MCSession(peer: myPeerId, securityIdentity: nil, encryptionPreference: .required)
         session.delegate = self
