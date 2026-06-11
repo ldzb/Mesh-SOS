@@ -66,5 +66,17 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>주변 기기와 SOS 메시지를 주고받기 위해 로컬 네트워크 권한이 필요합니다.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_mesh-sos._tcp</string>
+		<string>_mesh-sos._udp</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
 </dict>
 </plist>
