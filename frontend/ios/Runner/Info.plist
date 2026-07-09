@@ -78,5 +78,20 @@
 		<string>fetch</string>
 		<string>remote-notification</string>
 	</array>
+	
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>주변 기기를 탐색하고 재난 발생 위치를 공유하기 위해 위치 권한이 필요합니다.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>오프라인 상태에서 주변 기기와 구조 메시지(SOS)를 주고받기 위해 블루투스 권한이 필요합니다.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>오프라인 상태에서 주변 기기와 구조 메시지(SOS)를 주고받기 위해 블루투스 권한이 필요합니다.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>재난 상황에서 동일한 로컬 네트워크 내의 기기들과 P2P 통신망을 구축하기 위해 권한이 필요합니다.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_dartobservatory._tcp</string>
+		<string>_p2p._tcp</string>
+		<string>_p2p._udp</string>
+	</array>
 </dict>
 </plist>
